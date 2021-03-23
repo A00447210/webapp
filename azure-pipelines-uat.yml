@@ -42,4 +42,6 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: true
+    
+- task: PublishBuildArtifacts@1
 
